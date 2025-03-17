@@ -17,8 +17,8 @@ RUN mkdir -p /tmp/repository && \
     unzip /tmp/xwiki-platform-distribution-flavor-xip-16.10.5.xip -d /tmp/repository && \
     unzip /tmp/xwiki-platform-filter-ui-16.10.5.xip -d /tmp/repository && \
     unzip /tmp/dokuwiki-xwiki-16.10.5.xip -d /tmp/repository && \
-    rm /tmp/oidc-authenticator-15.10.14.xip && \ 
-    rm /tmp/xwiki-platform-distribution-flavor-xip-15.10.14.xip && \
+    rm /tmp/oidc-authenticator-16.10.5.xip && \ 
+    rm /tmp/xwiki-platform-distribution-flavor-xip-16.10.5.xip && \
     rm /tmp/xwiki-platform-filter-ui-16.10.5.xip && \
     rm /tmp/dokuwiki-xwiki-16.10.5.xip
 
