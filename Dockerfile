@@ -14,10 +14,10 @@ COPY xwikidump /tmp/xwikidump
 
 RUN mkdir -p /tmp/repository
 
-RUN unzip -o /tmp/dokuwiki-xwiki-16.10.5.xip -d /tmp/repository
-RUN unzip -o /tmp/xwiki-platform-filter-ui-16.10.5.xip -d /tmp/repository
-RUN unzip -o /tmp/oidc-authenticator-16.10.5.xip -d /tmp/repository
-RUN unzip -o /tmp/xwiki-platform-distribution-flavor-xip-16.10.5.xip -d /tmp/repository
+RUN unzip -n /tmp/dokuwiki-xwiki-16.10.5.xip -d /tmp/repository
+RUN unzip -n /tmp/xwiki-platform-filter-ui-16.10.5.xip -d /tmp/repository
+RUN unzip -n /tmp/oidc-authenticator-16.10.5.xip -d /tmp/repository
+RUN unzip -n /tmp/xwiki-platform-distribution-flavor-xip-16.10.5.xip -d /tmp/repository
 
 RUN rm /tmp/oidc-authenticator-16.10.5.xip
 RUN rm /tmp/xwiki-platform-distribution-flavor-xip-16.10.5.xip
